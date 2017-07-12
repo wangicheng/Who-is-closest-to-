@@ -7,7 +7,7 @@ y=int(0)
 """sqrt(n)-number"""
 def sqr_n(n):
     global y,g
-    ans=abs(math.sqrt(n)-math.sqrt(n)//1+3)
+    ans=abs((math.sqrt(n)-math.sqrt(n)//1)+3)
     if abs(ans-math.pi)<g :
         g=abs(ans-math.pi)
         print("√"+str(n)+"-"+str(int(math.sqrt(n)//1-3))+"="+str(ans))
